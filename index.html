@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BMW Premium — avtomobil olamiga xush kelibsiz">
+  <title>BMW | Sheer Driving Pleasure</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">BMW<span>.</span></a>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Bosh sahifa</a>
+      <a href="#models">Modellar</a>
+      <a href="#technology">Texnologiya</a>
+      <a href="#gallery">Galereya</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">THE ULTIMATE DRIVING MACHINE</p>
+        <h1>BMW <span>M4</span></h1>
+        <p class="hero-description">
+          Tezlik. Kuch. Mukammallik.
+          Haydash zavqining yangi darajasi.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#models" class="btn primary">Modellarni ko‘rish</a>
+          <a href="#technology" class="btn secondary">Batafsil</a>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>01 / 04</span>
+        <span>POWER IS NOTHING WITHOUT CONTROL</span>
+      </div>
+    </section>
+
+    <!-- MODELS -->
+    <section class="models section" id="models">
+      <div class="section-heading">
+        <p class="eyebrow">DISCOVER BMW</p>
+        <h2>Bizning <span>modellar</span></h2>
+        <p>Har bir BMW o‘ziga xos xarakterga ega.</p>
+      </div>
+
+      <div class="model-grid">
+        <article class="model-card">
+          <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=900" alt="BMW sedan">
+          <div class="model-info">
+            <h3>BMW M4</h3>
+            <p>Sport va kuch uyg‘unligi</p>
+            <a href="#technology">Batafsil →</a>
+          </div>
+        </article>
+
+        <article class="model-card">
+          <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900" alt="BMW sports car">
+          <div class="model-info">
+            <h3>BMW M5</h3>
+            <p>Hashamat va tezlik</p>
+            <a href="#technology">Batafsil →</a>
+          </div>
+        </article>
+
+        <article class="model-card">
+          <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=900" alt="BMW luxury car">
+          <div class="model-info">
+            <h3>BMW X5</h3>
+            <p>Premium SUV tajribasi</p>
+            <a href="#technology">Batafsil →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3D SECTION -->
+    <section class="three-section section" id="technology">
+      <div class="three-info">
+        <p class="eyebrow">INTERACTIVE EXPERIENCE</p>
+        <h2>BMW <span>3D</span> EXPERIENCE</h2>
+        <p>
+          BMW avtomobilining 3D ko‘rinishini tomosha qiling.
+          Sichqoncha bilan avtomobilni aylantiring.
+        </p>
+
+        <div class="specs">
+          <div>
+            <h3>530</h3>
+            <span>HORSEPOWER</span>
+          </div>
+          <div>
+            <h3>3.5s</h3>
+            <span>0-100 KM/H</span>
+          </div>
+          <div>
+            <h3>250</h3>
+            <span>KM/H</span>
+          </div>
+        </div>
+
+        <button class="btn primary" id="rotateBtn">
+          3D aylantirish
+        </button>
+      </div>
+
+      <div class="canvas-container">
+        <canvas id="carCanvas"></canvas>
+        <span class="drag-hint">DRAG TO ROTATE ↔</span>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGY -->
+    <section class="technology section">
+      <div class="section-heading">
+        <p class="eyebrow">ENGINEERING EXCELLENCE</p>
+        <h2>BMW <span>texnologiyasi</span></h2>
+      </div>
+
+      <div class="tech-grid">
+        <div class="tech-card">
+          <div class="tech-icon">⚡</div>
+          <h3>Innovatsiya</h3>
+          <p>Zamonaviy texnologiyalar va aqlli boshqaruv.</p>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">🏎️</div>
+          <h3>Performance</h3>
+          <p>Yuqori quvvat va sport xarakteri.</p>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">💎</div>
+          <h3>Premium dizayn</h3>
+          <p>Har bir detalda mukammallik.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery section" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">BMW WORLD</p>
+        <h2>Foto <span>galereya</span></h2>
+      </div>
+
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=900" alt="BMW 1">
+        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900" alt="BMW 2">
+        <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=900" alt="BMW 3">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=900" alt="Sports car">
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <h2>BMW<span>.</span></h2>
+      <p>Sheer Driving Pleasure.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#models">Models</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+      <p class="copyright">© 2026 BMW Premium Concept. Fan loyiha.</p>
+    </footer>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
